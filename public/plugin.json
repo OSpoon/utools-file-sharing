@@ -1,0 +1,30 @@
+{
+  "name": "xiaoxinge",
+  "pluginName": "utools-file-sharing",
+  "description": "文件分享支持，上传阿里云OSS对象存储",
+  "author": "https://github.com/OSpoon",
+  "homepage": "https://github.com/OSpoon/utools-file-sharing",
+  "version": "0.0.1",
+  "logo": "logo.png",
+  "main": "index.html",
+  "preload": "preload.js",
+  "development": {
+    "main": "http://127.0.0.1:3000",
+    "preload": "preload.js"
+  },
+  "features": [
+    {
+      "code": "file",
+      "explain": "文件分享支持，上传阿里云OSS对象存储",
+      "cmds": [
+        "file",
+        "文件分享支持，上传阿里云OSS对象存储",
+        {
+          "type": "files",
+          "fileType": "file",
+          "label": "上传文件"
+        }
+      ]
+    }
+  ]
+}
